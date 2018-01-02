@@ -1,0 +1,36 @@
+.container{
+	max-width:1200px;
+	margin:0 auto;
+}
+
+.header{
+	background:rgb(255,255,255);
+	height:60px;
+	border-bottom:1px solid #666;
+}
+
+table,tr,td,th{
+	border:1px solid #333;
+	border-collapse: collapse;
+}
+
+footer{
+	display:block;
+	background-color: #333;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+	color:#fff;
+}
+.label-add-books{
+	width:200px;
+	display: inline-block;
+}
+.input-addbooks-text{
+	width:200px;
+}
+.addbooks-button{
+	background:red;
+	color:#fff;
+	float:right;
+}
