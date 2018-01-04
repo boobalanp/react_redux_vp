@@ -11,6 +11,7 @@ import Griddle,{RowDefinition,ColumnDefinition} from 'griddle-react';
 import configureStore from './store/configureStore';
 import {loadCourses} from './actions/courseActions';
 import {loadAuthors} from './actions/authorActions';
+import '../node_modules/toastr/build/toastr.min.css';
 
 const store = configureStore();
 store.dispatch(loadCourses());
